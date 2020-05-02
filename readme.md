@@ -18,13 +18,9 @@ Pysys是一个基于Python的突破性微型命令行系统，该系统仅为初
     - [版本的命名](https://github.com/bobby233/Pysys#版本的命名)
     - [更新日志](https://github.com/bobby233/Pysys#更新日志)
         - [v0.0.1beta](https://github.com/bobby233/Pysys#v0.0.1beta)
-        - [v0.0.1](https://github.com/bobby233/Pysys#v0.0.1)
         - [cmd_testv0](https://github.com/bobby233/Pysys#cmd_testv0)
         - [v0.1.0beta](https://github.com/bobby233/Pysys#v0.1.0beta)
-        - [v0.1.0](https://github.com/bobby233/Pysys#v0.1.0)
         - [v0.2.0beta](https://github.com/bobby233/Pysys#v0.2.0beta)
-        - [v0.2.0](https://github.com/bobby233/Pysys#v0.2.0)
-        - [v0.2.1](https://github.com/bobby233/Pysys#v0.2.1)
     - [TODO](https://github.com/bobby233/Pysys#TODO)
 - [交流](https://github.com/bobby233/Pysys#交流)
 - [预告](https://github.com/bobby233/Pysys#预告)
@@ -140,22 +136,16 @@ Exit info---------------------------------------------------
 - 添加网络连接，可以与外界联系；
 - 基于基本的网络连接，可以有系统更新提示、阅读文档和获取网页源码等功能。
 ## TODO
-短期（到4/26）：
-- [x] readme整合系统常用功能
+短期（到5/6）：
+- 添加app更新功能
 
-长期（到5/3）：
-- [x] 实现文件路径
-- [x] 优化命令行体验
+中期（到5/18）：
+- 优化文件系统，添加文件新建和删除功能
+- 添加app卸载功能
 
-超长期（到5/17）：
-- [x] 存储在GitHub上的app可以通过Pysys联网下载安装
-
-完成反馈：
-1. 整合了`app list`和`q`两个简单的基础功能，以后会添加更多，大部分完成任务。
-2. 命令行体验确实更好了，提示符更改了，但是以后会更好，会使用标准库`cmd`。
-3. 已经使用了标准库`cmd`。
-4. 在v0.1.0beta中，添加了基本的文件系统，但是不够成熟，需要不断更新才能达到想要的效果。
-5. 联网已经基本实现。
+长期（到5/31）：
+- 添加基本tkinter的UI界面
+- 添加第三方库的支持，比如`matplotlib`
 
 # 交流
 加QQ2370706289或者发邮件给mczsjzsjz@outlook.com。
