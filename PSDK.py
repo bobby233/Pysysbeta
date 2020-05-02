@@ -308,7 +308,7 @@ def check_system_update():
             if Pysys_str.network:
                 _opener = urllib.request.urlopen("https://raw.githubusercontent.com/bobby233/Pysys/master/system.json")
                 _info = eval(str(_opener.read(), encoding="utf-8"))
-                if Pysys_str.version < _info["latest_beta"]:
+                if Pysys_str.version < _info["latest"]:
                     print("You need update.\nGo to https://github.com/bobby233/Pysys to download.")
                 else:
                     print("Your version is the latest.")
@@ -327,7 +327,7 @@ def check_system_update():
         if Pysys_str.network:
             _opener = urllib.request.urlopen("https://raw.githubusercontent.com/bobby233/Pysys/master/system.json")
             _info = eval(str(_opener.read(), encoding="utf-8"))
-            if Pysys_str.version < _info["latest_beta"]:
+            if Pysys_str.version < _info["latest"]:
                 print("You need update.\nGo to https://github.com/bobby233/Pysys to download.")
             else:
                 print("Your version is the latest.")
