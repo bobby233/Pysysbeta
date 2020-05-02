@@ -1,0 +1,19 @@
+mess = ''
+ui = 'user_info.json'
+user_info = {"DISK": ["dir1", "^file1"]}
+sign = 'Please sign in.\nType your username: '
+sign_psw = 'Type your password: '
+log = 'Please log in.\nType your username: '
+log_psw = 'Type your password: '
+wel = 'Welcome to Pysys.What do you want to do?("q" to quit) '
+user = 'guest'
+defult_user_opr = '<=> '
+xuser_opr = '<x> '
+guest_opr = '</> '
+fob = 'WARNING: THIS APP IS FULL OF BUG!!! R U SURE TO RUN IT(y/n)? '
+oxout = False
+rcout = False
+file_pos = "DISK"
+network = False
+version = 20
+beta = True

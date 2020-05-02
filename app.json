@@ -1,0 +1,4 @@
+{"app_list": ["test"],
+ "app": {
+     "test": {"code": "import PSDK as p\np.wel('test')\nmsg='test'\ndef test():\n\tprint(msg)\ntest()\np.ext('test')"}
+ }}
